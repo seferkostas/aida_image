@@ -1,0 +1,9 @@
+dataset,model,attack,defense,accuracy_mean,accuracy_std,f1_score_mean,f1_score_std,l2_norm_mean,l_inf_norm_mean
+mnist,cnn,fgsm,adversarial_training,0.9627,,0.9627,,2.8,0.1
+mnist,cnn,fgsm,adversarial_training+feature_squeezing,0.9631,,0.9631,,2.8,0.1
+mnist,cnn,fgsm,feature_squeezing,0.5179,,0.4843,,2.8,0.1
+mnist,cnn,fgsm,none,0.5283,,0.4958,,2.8,0.1
+mnist,cnn,none,adversarial_training,0.9912,,0.9912,,0.0,0.0
+mnist,cnn,none,adversarial_training+feature_squeezing,0.9907,,0.9907,,0.0,0.0
+mnist,cnn,none,feature_squeezing,0.983,,0.983,,0.0,0.0
+mnist,cnn,none,none,0.9836,,0.9836,,0.0,0.0

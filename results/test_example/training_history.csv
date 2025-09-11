@@ -1,0 +1,2 @@
+dataset,model,epoch,accuracy,loss,val_accuracy,val_loss
+mnist,cnn,1,0.9020000100135803,0.314315527677536,0.9836000204086304,0.05888519808650017

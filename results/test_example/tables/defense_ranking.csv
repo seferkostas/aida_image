@@ -1,0 +1,5 @@
+defense,mean,std,min,max,count
+adversarial_training+feature_squeezing,0.9631,,0.9631,0.9631,1
+adversarial_training,0.9627,,0.9627,0.9627,1
+none,0.5283,,0.5283,0.5283,1
+feature_squeezing,0.5179,,0.5179,0.5179,1
